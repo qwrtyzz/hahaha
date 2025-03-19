@@ -1,19 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>HACKED!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Crash</title>
     <style>
         body {
             background-color: black;
-            color: red;
+            color: white;
+            font-family: "Courier New", Courier, monospace;
             text-align: center;
-            font-size: 50px;
-            font-family: Arial, sans-serif;
+            animation: glitch 1s infinite;
+        }
+        h1 {
+            font-size: 100px;
+            color: lime;
+        }
+        @keyframes glitch {
+            0% { transform: skewX(10deg); }
+            25% { transform: skewX(-10deg); }
+            50% { transform: skewX(10deg); }
+            75% { transform: skewX(-10deg); }
+            100% { transform: skewX(0deg); }
         }
     </style>
 </head>
 <body>
-    <h1> ZEYNAL CAVADOV! </h1>
-    <p>BAYRAMIN MUBAREK!!!!!!</p>
+    <h1>💥 SYSTEM CRASH 💥</h1>
+    <p>The system has crashed! Something went terribly wrong...</p>
+    <p><strong>Just kidding! No harm done! 😊</strong></p>
 </body>
 </html>
